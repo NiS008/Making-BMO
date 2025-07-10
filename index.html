@@ -39,22 +39,25 @@
     }
 
     .mouth {
-      position: absolute;
-      bottom: 80px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 600px;
-      height: 40px;
-    }
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px; /* wider mouth */
+  height: 20px; /* thinner mouth */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .mouth::before {
-      content: '';
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      border-bottom: 5px solid #000;
-      border-radius: 0 0 50% 50%;
-    }
+.mouth::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-bottom: 4px solid #000;
+  border-radius: 0 0 50% 50%; /* gentle curve */
+}
+
 
   </style>
 </head>
