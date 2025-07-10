@@ -44,17 +44,12 @@
   left: 50%;
   transform: translateX(-50%);
   width: 160px;
-  height: 12px; /* height of the bar */
+  height: 12px;
+  background-color: #000;      /* solid black pill shape */
+  border-radius: 50px / 100%;  /* fully rounded capsule */
+  /* no ::before needed */
 }
 
-.mouth::before {
-  content: '';
-  width: 100%;
-  height: 12px;
-  background-color: #000;
-  border-radius: 50px / 100%;
-  box-shadow: 0 4px 0 #000;
-}
 
 
 
