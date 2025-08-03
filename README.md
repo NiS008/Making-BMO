@@ -1,2 +1,2 @@
-# Making-BMO
+# EPQ
 
